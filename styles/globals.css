@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  /* colors  */
+  --dark-color: #1d1f23;
+  --black-color: #181a1d;
+  --yellow-color: #f8c337;
+  --gray-color: #e0e5ec;
+  --gary-dark-color: #c4c4c4;
+  --primary-background-color: #e5e5e5;
+  --dark-background-color: #181a1d;
+
+  /* font weights variables */
+  --font-weight-9x: 900 !important;
+  --font-weight-8x: 800 !important;
+  --font-weight-7x: 700 !important;
+  --font-weight-6x: 600 !important;
+  --font-weight-5x: 500 !important;
+
+  /* raduis sizes */
+  --border-raduis-1: 1rem;
+  --border-raduis-2: 2rem;
+  --border-raduis-3: 3rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  font-family: 'Roboto', -apple-system, sans-serif, BlinkMacSystemFont,
+    'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans',
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+a {
+  text-decoration: none;
+}
